@@ -1,0 +1,10 @@
+.footer{
+    height: 7vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.footer p{
+    font-size: 25px;
+    font-weight: 600;
+}

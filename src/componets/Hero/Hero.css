@@ -1,0 +1,63 @@
+section{
+  display: flex;
+  height: 90vh;
+  background: black;
+  color: white;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+  padding: 30px 40px;
+}
+.hero{
+  width: 40%;
+  max-width: 100%;
+  height: auto;
+}
+.container{
+  display: flex;
+
+}
+.main{
+  font-size: 50px;
+  font-weight: 600;
+}
+.main p{
+  font-size: 30px;
+  color: orangered;
+  overflow: hidden; 
+
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 20px;
+}
+.icons a{
+  font-size: 30px;
+}
+.icons a:hover{
+  color: chartreuse;
+}
+
+@media (max-width: 800px) {
+  section {
+    display: flex;
+    flex-direction: column;
+      padding: 20px 20px;
+  }
+
+  section img {
+    margin-top: 20px;
+      width: 70%;
+  }
+
+  .main {
+      font-size: 30px;
+  }
+
+  .main p {
+      font-size: 20px;
+  }
+}

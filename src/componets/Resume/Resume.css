@@ -1,0 +1,89 @@
+.resume {
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 20px; 
+}
+
+.left-resume {
+    width: 50%;
+}
+
+.right-resume {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-resume img {
+    margin-left: 100px;
+    padding: 30px;
+    width: 50%;
+    border-radius: 50px;
+}
+
+.right-resume h1 {
+    font-size: 45px;
+    border-bottom: 3px solid black;
+    color: rgb(6, 6, 6);
+    margin-bottom: 10px;
+}
+
+.right-resume p {
+    margin-left: 40px;
+    padding: 0px 25px;
+    font-size: 25px;
+    color: rgb(15, 15, 15);
+    font-weight: 500;
+}
+.right-resume a{
+    padding: 20px 10px;
+    font-size: 25px;
+    font-weight: 500;
+    background: white;
+    border: none;
+  color: blue;
+  text-decoration: none;
+}
+.right-resume a:hover{
+    color: rgba(0, 0, 255, 0.685);
+}
+
+@media (max-width: 800px) {
+    .resume {
+        display: flex;
+        flex-direction: column;
+        height: auto; 
+        padding: 10px; 
+    }
+
+    .left-resume, .right-resume {
+        width: 100%; 
+        padding: 10px 0; 
+    }
+   .left-resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+    .left-resume img {
+        width: 50%;
+        margin-left: -10px;
+        padding: 10px; 
+        border-radius: 20px; 
+    }
+
+    .right-resume h1 {
+        font-size: 25px;
+    }
+
+    .right-resume p {
+        font-size: 20px;
+        margin-left: 20px; 
+        padding: 0px 15px; 
+    }
+}
