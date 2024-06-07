@@ -52,7 +52,7 @@
     color: rgba(0, 0, 255, 0.685);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .resume {
         display: flex;
         flex-direction: column;
