@@ -52,7 +52,7 @@
     color: rgba(0, 0, 255, 0.685);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
     .resume {
         display: flex;
         flex-direction: column;
@@ -82,8 +82,15 @@
     }
 
     .right-resume p {
-        font-size: 20px;
+        font-size: 15px;
         margin-left: 20px; 
+        margin-bottom: 20px;
         padding: 0px 15px; 
     }
+    .right-resume a{
+        font-size: 15px;
+        margin-top: 10px;
+        border: none;
+    }
 }
+
